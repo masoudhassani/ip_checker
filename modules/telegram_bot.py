@@ -59,6 +59,9 @@ class TelegramBot:
         """Log Errors caused by Updates."""
         self.logger.warning('Update "%s" caused error "%s"', update, context.error)
 
+    def stop(self):
+        self.updater.stop()
+
     # send a message to the telegram chat. 
     # to get the chat id, go to https://api.telegram.org/bot<token>/getUpdates
     # send a command in the group and see the respond in above link
