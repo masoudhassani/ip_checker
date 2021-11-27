@@ -1,0 +1,10 @@
+telegram:
+  active: True
+  telegram_token: ''
+  chat_id: ''
+
+email:
+  active: False 
+  email: ''
+  user: ''
+  password: ''
